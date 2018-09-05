@@ -121,7 +121,7 @@ def printLaTeXIsogenyGraph(IsoGraph):
     IsogenyGraph = IsogenyGraph.replace('*',' \cdot ')    #Replaces bad typsetting * with \cdot
     print IsogenyGraph                                    #Prints tex code
 
-#This ONLY works for graphs of SI divisible by 4!!!!!!
+#This ONLY works for graphs of SIZE divisible by 4!!!!!!
 def prettyPrintIsogenyGraph(IsoGraph):
     IsogenyGraph = r"\begin{tikzpicture}[rotate=12] \draw [fill=yellow!15,rounded corners, draw=black!50, dashed, rotate=-12] ([shift={(0.5\pgflinewidth,0.5\pgflinewidth)}]13,13) rectangle ([shift={(-0.5\pgflinewidth,-0.5\pgflinewidth)}]-13,-13);"
     for i in range(len(IsoGraph)):
