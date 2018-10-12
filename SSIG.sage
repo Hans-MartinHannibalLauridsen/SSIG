@@ -110,7 +110,7 @@ class IsogenyGraph:
     #---------END-OF-METHOD----------#
     
     #Creates a latex formatted isogeny graph drawn in tikz
-    def printLaTeXIsogenyGraph():
+    def printLaTeXIsogenyGraph(self):
 
         IsoGraph = self.adjacencyMatrix
 
